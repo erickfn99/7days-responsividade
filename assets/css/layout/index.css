@@ -1,0 +1,44 @@
+.card-perfil{
+    align-items: center;
+    display: flex;
+    margin-top: 64px;
+    column-gap: 16px;
+}
+
+    .card-perfil__foto{
+        border-radius: 50%;
+        height: auto;
+        width: 56px;
+    }
+
+    .card-perfil__container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .card-perfil__titulo{
+        color: var(--negrito-cor);
+        font-size: 22px;
+        font-weight: var(--negrito);
+    }
+
+    .card-perfil__consultas{
+        color: var(--regular-cor);
+        font-size: 14px;
+        font-weight: var(--regular);
+    }
+
+.container-consultas{
+    margin-top: 24px;
+}
+
+    .container-consultas__data{
+        color: var(--negrito-cor);
+        font-size: 16px;
+        font-weight: var(--negrito);
+    }
+
+    .container-consultas .card-consulta{
+        margin-top: 16px;
+    }

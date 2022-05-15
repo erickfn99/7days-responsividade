@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>7Days - Responsividade</title>
+
+        <!-- Resetando os padrões de estilo dos navegadores -->
+        <link rel="stylesheet" href="assets/css/base/reset.css">
+
+        <!-- Carregando a fonte -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Carregando os arquivos de base -->
+        <link rel="stylesheet" href="assets/css/base/texto.css">
+        <link rel="stylesheet" href="assets/css/base/cores.css">
+
+        <!-- Carregando os arquivos dos módulos -->
+        <link rel="stylesheet" href="assets/css/module/container.css">
+        <link rel="stylesheet" href="assets/css/module/botoes.css">
+        <link rel="stylesheet" href="assets/css/module/card-consulta.css">
+
+        <!-- Carregando os arquivos de layouts -->
+        <link rel="stylesheet" href="assets/css/layout/index.css">
+    </head>
+
+    <body>
+        <main class="container">
+            <section class="card-perfil">
+                <img src="assets/img/perfil-1.jpg" alt="Foto de perfil" class="card-perfil__foto">
+
+                <div class="card-perfil__container">
+                    <h1 class="card-perfil__titulo">Olá, Sônia</h1>
+                    <p class="card-perfil__consultas">Mais 4 consultas hoje</p>
+                </div>
+            </section>
+
+            <section class="container-consultas">
+                <h2 class="container-consultas__data">Hoje</h2>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-2.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Luciana Dias</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">14:00 - 15:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-3.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Larissa Santana</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/pin.png" class="consulta__icone--local">
+                                <p class="consulta__tipo">Consulta no local</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">16:00 - 17:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--local">
+                            <button class="botao botao--azul">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-4.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Marcos Correia</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">17:20 - 18:00 (40 minutos)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-consultas">
+                <h2 class="container-consultas__data">Amanhã</h2>
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-5.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Clara Lemos</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/pin.png" class="consulta__icone--local">
+                                <p class="consulta__tipo">Consulta no local</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">18:00 - 19:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--local">
+                            <button class="botao botao--azul">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-2.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Luciana Dias</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">14:00 - 15:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-4.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Marcos Correia</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">17:20 - 18:00 (40 minutos)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-3.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Larissa Santana</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/pin.png" class="consulta__icone--local">
+                                <p class="consulta__tipo">Consulta no local</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">16:00 - 17:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--local">
+                            <button class="botao botao--azul">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-consultas">
+                <h2 class="container-consultas__data">Quarta-feira</h2>
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-5.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Clara Lemos</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/pin.png" class="consulta__icone--local">
+                                <p class="consulta__tipo">Consulta no local</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">18:00 - 19:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--local">
+                            <button class="botao botao--azul">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-2.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Luciana Dias</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">14:00 - 15:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-4.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Marcos Correia</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/Camera.png" class="consulta__icone--remoto">
+                                <p class="consulta__tipo">Consulta remota</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">17:20 - 18:00 (40 minutos)</p>
+
+                        <div class="card-consulta__atendimento--remoto">
+                            <button class="botao botao--laranja">Ligar por vídeo</button>
+                            <button class="botao botao--branco">Ligar por áudio</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-consulta">
+                    <div class="card-consulta__paciente">
+                        <img src="assets/img/perfil-3.jpg" alt="Foto de perfil de paciente" class="paciente__foto">
+
+                        <div class="paciente__descricao">
+                            <h3 class="descricao__nome">Larissa Santana</h3>
+
+                            <div class="descricao__consulta">
+                                <img src="assets/img/icones/pin.png" class="consulta__icone--local">
+                                <p class="consulta__tipo">Consulta no local</p>
+                            </div>
+                        </div>
+
+                        <div class="card-consulta__mensagem">
+                            <img src="./assets/img/icones/chat1.png" alt="Enviar mensagem">
+                        </div>
+                    </div>
+
+                    <div class="card-consulta__atendimento">
+                        <p class="atendimento__hora">16:00 - 17:00 (1 hora)</p>
+
+                        <div class="card-consulta__atendimento--local">
+                            <button class="botao botao--azul">Ver endereço</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-image: var(--background-color);
+    flex-basis: 100%;
+    padding: 0px 16px;
+}

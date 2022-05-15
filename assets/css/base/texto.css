@@ -1,0 +1,8 @@
+body{
+    --fonte-principal: 'Montserrat', sans-serif;
+    --medio: 500;
+    --negrito: 700;
+    --regular: 400;
+
+    font-family: var(--fonte-principal);
+}
